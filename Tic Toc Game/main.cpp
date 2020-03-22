@@ -4,7 +4,7 @@
 
 #include <iostream>
 using namespace std;
-
+#include "Functions.h"
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
 	bool flag = false;//input test
 	char mark = ' ';// X/O, for placing the values in the board
 
-	cout << "Welcome to TIC TAC TOE" << endl;
+	cout << "Welcome to TIC TAC TOE Game" << endl;
 	PrintBoard(res);
 	GameRotation(win, flag, mark, res);
 
